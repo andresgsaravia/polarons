@@ -108,6 +108,6 @@ endfor
 
 % Building the hamiltonian
 h = spconvert([rows; cols; vals]');
-[eigvecs, eigvals] = eigs(h, k, "sa")
+[eigvecs, eigvals] = eigs(h, k, "sa");
 
 end
