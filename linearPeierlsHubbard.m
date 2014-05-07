@@ -9,20 +9,6 @@ function [h, eigvals, eigvecs] = linearPeierlsHubbard(bandEnergies,
 
 % (Write hamiltonian and references here)
 
-## % Relevant parameters
-## bandEnergies = [0.5 -0.5 0.5];
-## nnHopping = 0.5;
-## onSiteRepulsion = 7.0;
-## irEnergy = 612.4 / 8056;
-## ramEnergy = 500 / 8056;
-## ramShift = 4.0 / 3.0;
-## eIrCoupling = 0.13;
-## eRamCoupling = 0.0;
-## nIr = 20;
-## nRam = 20;
-
-size = 9 * (nIr + 1) * (nRam + 1);
-
 % To build the hamiltonian we store the non-zero values as triplets (row, col, val)
 rows = [];
 cols = [];
