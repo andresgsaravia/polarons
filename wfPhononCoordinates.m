@@ -1,6 +1,7 @@
 function v = wfPhononCoordinates(wf, uIr, uRam, nIr, nRam)
 
-% Projects the wavefunction wf into phonon coordinates (uIr, uRam)
+% Projects the wavefunction 'wf' into phonon coordinates ('uIr', 'uRam')
+% 'nIr' and 'nRam' are the number of infrared and Raman phonons
 % (Write projection equation and references here)
 
 pkg load miscellaneous
